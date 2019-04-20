@@ -2,7 +2,7 @@ import os
 import urllib.request as urlReq
 import json
 from time import sleep
-
+pageCount = 0
 def setURL (nextPage):
 	sleep(4)
 	global pageCount
